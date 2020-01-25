@@ -29,6 +29,7 @@
   },
   "devDependencies": {
     "concurrently": "^5.0.2",
+    "node-gyp": "^6.1.0",
     "nodemon": "^2.0.2"
   }
 }
