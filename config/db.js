@@ -9,7 +9,7 @@ const connectDB = async () => {
             useUnifiedTopology: true,
             useCreateIndex: true
         })
-        console.log('Mongoose connected');
+        console.log('Mongoose connected')
 
 
     } catch (err) {
@@ -20,4 +20,4 @@ const connectDB = async () => {
     }
 }
 
-module.exports = connectDB;
+module.exports = connectDB

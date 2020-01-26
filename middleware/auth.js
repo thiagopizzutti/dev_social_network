@@ -1,9 +1,9 @@
-const jwt = require('jwttoken')
+const jwt = require('jsonwebtoken')
 const config = require('config')
 
 module.exports = function (req, res, next) {
     // Get token from header
-    const token = req.header(x - auth - token)
+    const token = req.header('x-auth-token')
 
     // check if not token
     if (!token) {
@@ -22,6 +22,4 @@ module.exports = function (req, res, next) {
             msg: 'Token is not valid'
         })
     }
-
-
 }
