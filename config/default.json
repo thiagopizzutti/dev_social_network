@@ -1,4 +1,0 @@
-{
-    "mongoURI": "mongodb+srv://tpizzutti:getulio@newdevenv-lijbn.gcp.mongodb.net/test?retryWrites=true&w=majority",
-    "jwtsecret": "getulio"
-}
